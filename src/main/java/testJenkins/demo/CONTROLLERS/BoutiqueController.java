@@ -10,8 +10,8 @@ import java.util.List;
 public class BoutiqueController {
 @GetMapping("/somme/{num}")
     public int test(@PathVariable int num){
-
-    return somme3(3,4,num);
+    int a = 3;
+    return somme3(a,4,num);
 }
  public static int somme3(int a, int b, int c)
     {
