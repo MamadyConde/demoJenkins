@@ -1,2 +1,1 @@
 # demoJenkins in jenkins
-AAAA
