@@ -11,7 +11,8 @@ public class BoutiqueController {
 @GetMapping("/somme/{num}")
     public int test(@PathVariable int num){
     int a = 3;
-    return somme3(a,4,num) +1;
+    int b = 4;
+    return somme3(a,b,num) +1;
 }
  public static int somme3(int a, int b, int c)
     {
